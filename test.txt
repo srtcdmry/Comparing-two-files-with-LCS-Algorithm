@@ -1,0 +1,20 @@
+#include <iostream> 
+using namespace std; 
+  
+int deneme (int deger); 
+  
+void main () 
+{ 
+    char karakter, karakter1; 
+    int toplam ; 
+    cout << "Karakter Girin: "; 
+    cin >> sayi1; 
+    cout << "Karakter1 Girin: "; 
+    scanf("%c", karakter1) 
+  
+    toplam= karakter1 + karakter ; 
+  
+    cout << karakter <<" + " << karakter1 <<" = " << toplam; 
+  
+    return 0; 
+}  

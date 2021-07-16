@@ -1,0 +1,19 @@
+#include<string>
+using namespace std;
+ 
+int toplama(int deger);
+ 
+int main()
+{
+    int sayi1,sayi2,toplamlar;
+    cout << "Sayi Girin: ";
+    cin >> sayi1;
+    cout << "Sayi2 Girin: ";
+    scanf ("%d", &sayi2)
+ 
+    toplamlar=sayi1+sayi2;
+ 
+    cout << sayi1 <<" + " << sayi2 <<" = " << toplamlar;
+ 
+    return 0;
+} 
