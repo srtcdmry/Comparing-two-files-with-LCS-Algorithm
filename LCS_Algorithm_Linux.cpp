@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <locale>
@@ -10,6 +10,12 @@
 
 #define MAX 9999999
 using namespace std;
+
+// g++ name.cpp -std=c++11
+//multiple files
+// >> ./a.out *.txt
+// or two files
+// >> ./a.out file.txt file2.txt
 
 char* arrTranslation = new char[MAX];
 vector<int>indis,indis2;
